@@ -180,7 +180,9 @@ int main(const int argc, const char **argv) {
                 std::cout << "Download: ";
                 std::cout << std::fixed;
                 std::cout << std::setprecision(2);
-                std::cout << downloadSpeed << " Mbit/s" << std::endl;
+                std::cout << downloadSpeed << " Mbit/s (" ;
+                std::cout << downloadSpeed/8 << " Mb/s)" ;
+                std::cout << std::endl;
             } else {
                 std::cout << "DOWNLOAD_SPEED=";
                 std::cout << std::fixed;
@@ -210,7 +212,9 @@ int main(const int argc, const char **argv) {
             std::cout << "Upload: ";
             std::cout << std::fixed;
             std::cout << std::setprecision(2);
-            std::cout << uploadSpeed << " Mbit/s" << std::endl;
+            std::cout << uploadSpeed << " Mbit/s (" 
+            std::cout << uploadSpeed/8 << " Mb/s)" 
+            std::cout << std::endl;
         } else {
             std::cout << "UPLOAD_SPEED=";
             std::cout << std::fixed;
