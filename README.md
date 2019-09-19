@@ -32,8 +32,8 @@ It supports the new (undocumented) raw TCP protocol for better accuracy.
 
 ```
 $ brew install cmake
-$ cd cmake_build
-$ cmake -DCMAKE_BUILD_TYPE=Release ..
+$ cd SpeedTest
+$ cmake -DCMAKE_BUILD_TYPE=Release .
 $ make install
 ```
 
