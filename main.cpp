@@ -212,8 +212,8 @@ int main(const int argc, const char **argv) {
             std::cout << "Upload: ";
             std::cout << std::fixed;
             std::cout << std::setprecision(2);
-            std::cout << uploadSpeed << " Mbit/s (" 
-            std::cout << uploadSpeed/8 << " Mb/s)" 
+            std::cout << uploadSpeed << " Mbit/s ("; 
+            std::cout << uploadSpeed/8 << " Mb/s)";
             std::cout << std::endl;
         } else {
             std::cout << "UPLOAD_SPEED=";
